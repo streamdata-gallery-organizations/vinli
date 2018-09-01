@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Vinli",
+	"description": "This is a repository of vinli APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/vinli.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://vinli.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Vinli",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vinli/master/_listings/vinli/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Vinli",
+	"include": [
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/vinli/master/_listings/vinli/apis.yaml"
+		}
+	]
+}

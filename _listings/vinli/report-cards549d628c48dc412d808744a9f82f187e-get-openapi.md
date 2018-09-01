@@ -1,9 +1,10 @@
+---
 swagger: "2.0"
 x-collection-name: Vinli
-x-complete: 1
+x-complete: 0
 info:
-  title: Vinli
-  description: todo-add-description
+  title: Vinli Get a Specific Report Card
+  description: Get a specific report card.
   version: 1.0.0
 host: events.vin.li
 basePath: /api/v1
@@ -864,21 +865,17 @@ paths:
       - Specific
       - Report
       - Card
-  /devices/cf217c2d-df3c-41f7-b610-8bc3e11b4b79/trips:
-    get:
-      summary: List All of a Device's Trips
-      description: List all of a device's trips.
-      operationId: DevicesCf217c2dDf3c41f7B6108bc3e11b4b79TripsGet
-      x-api-path-slug: devicescf217c2ddf3c41f7b6108bc3e11b4b79trips-get
-      parameters:
-      - in: header
-        name: Accept
-      responses:
-        200:
-          description: OK
-      tags:
-      - List
-      - ""
-      - Of
-      - Devices
-      - Trips
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
